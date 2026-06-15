@@ -141,8 +141,33 @@ header{position:sticky;top:0;z-index:100;background:var(--bg);border-bottom:none
 .bag-item-remove:hover{color:var(--red);}
 .shared-footer{width:100%;padding:60px 0 40px;display:flex;flex-direction:column;align-items:center;gap:0;}
 .shared-footer.tight{padding-top:4px;}
-footer{border-top:none;padding:20px 32px;display:flex;justify-content:space-between;align-items:center;font-family:var(--mono);font-size:9px;letter-spacing:0.14em;color:var(--text3);}
-footer span{color:var(--red);}
+@media(max-width:600px){
+  .nav{height:56px;padding:0 14px;}
+  .logo img{height:34px;}
+  .menu-btn img{width:32px;height:32px;}
+  .nav-right-area span,.nav-right-area img{transform:none;}
+  .nav-right-area{font-size:13px;}
+  .search-input.open{width:80px;}
+  .grid{grid-template-columns:repeat(2,1fr);padding:0 16px;margin-top:40px;}
+  .pname{font-size:11px;}
+  .ward{font-size:7px;}
+  .psub{font-size:10px;}
+  .p-fin{font-size:10px;}
+  #detail>div{padding:20px 16px 40px;}
+  .d-name{font-size:20px;}
+  .d-fin{font-size:18px;}
+  .d-notice{font-size:9px;}
+  .about-text{width:92vw;}
+  .about-text p.en{font-size:12px;}
+  .about-text p.kr{font-size:10px;}
+  .contact-brand{font-size:18px;}
+  .contact-info{font-size:12px;}
+  .drawer-content{width:200px;}
+  .drawer-item{font-size:15px;padding:10px 18px;}
+  .shared-footer{padding:40px 16px 30px;}
+  .reception-nav a{font-size:11px;}
+  .reception-info{font-size:9px;}
+}
 </style>
 </head>
 <body>
